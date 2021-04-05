@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="" content="Non-profit Organization Future Foundation 15">
+    <meta name="" content="Jackie Zhao">
+
+    <title>Business</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link href="css/appstyle.css" rel="stylesheet">
+
+    <!--JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation  -->
+<div class="header">
+    <a href="index.html" class="logo">Future Foundation 15</a>
+    <div class="header-right">
+        <a class="active" href=application.html>Apply</a>
+        <a href="index.html">Home</a>
+        <a href="#student">Students</a>
+        <a href="mentor.html">Mentorship</a>
+        <a href="#contact">Contact Us</a>
+        <a href="donation.html" target="_blank">Donate</a>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</button>
+    </div>
+</div>
+<div id="id01" class="modal">
+
+    <form class="modal-content animate" action="deadend.html" target="blank" method="get">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+            <h1 style="text-align: center;">Student Portal</h1>
+            <p style="font-size: 9px; text-align: center;">type whatever you want</p>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <span class="psw">Forgot <a href="deadend.html" target="_blank">password?</a></span>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn">Cancel</button>
+            <span class="nwac">Don't have an account? <a href="deadend.html" target="_blank">Sign Up</a></span>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<section id="default" class="parallax-window">
+    <div>
+        <h1 style="top:10px; color: red; font-size: 5rem; text-align:center; padding-top:110px;">Future Foundation
+        15<br> Program Details</h1>
+        <!--This ismage is by Naassom Azevedo from Unsplash.com-->
+    </div>
+</section>
+
+<!--Student-->
+<sectiom id="student">
+    <div style="margin-left: 10%; margin-right: 10%;">
+        <div style=" border-bottom: 1px solid;">
+            <h1 style="text-align: center; font-size: 45px; padding-top: 20px; padding-bottom: 10px;">Students</h1>
+            <h2 style="text-align: left; font-size: 25px;">Eligibility:</h2>
+            <ul>
+                <li>Currently Is In 9th Grade</li>
+                <li>Be a First Generation College Student</li>
+                <ul>
+                    <li style="list-style-type:circle;""
+                    >Neither Biological Parent Have Graduated/Recieved A Bachelor's Degree From An 
+                American College</li>
+                </ul>
+                <li>Has A GPA Of 2.9 or Higher</li>
+                <li>A Family Income That Meets Our Guidelines</li>
+                <ul>
+                    <li style="list-style-type:circle;""
+                    >This will depend on the number of housegold members and other family circumstances.<br>
+                Applicants are required to submit certain documents as proof. </li>
+                </ul>
+                <li style="font-size: 20px;">
+                    The Motivation To Pursue Knowledge and To Better Themselves Academically and Mentally</li>
+                <ul>
+                    <li style="list-style-type:circle;""
+                    >This is the most important quality for our students to have.<br> We can be flexible on the
+                other requirements due to an individual's circumstances, but this requirement is absolute. </li>
+                </ul>
+            </ul>
+        </div>
+        <div style=" border-bottom: 1px solid;">
+            <h3 style="text-align: left; font-size: 25px; padding-top: 20px;">Benefits:</h3>
+            <ul>
+                <li>Establishing A Wider Array Of Network and Connections </li>
+                <li>Academic Enrichment That Helps Students Succeed In HighSchool and Prepares Them For College:</li>
+                <ul style="list-style-type:circle;">
+                    <li>Mandatory Saturday Classes From 11 AM to 3 PM (Don't Worry, Lunch Is Provided😊)</li>
+                    <li>SAT/ACT Preparaton Starting At The Junior Year</li>
+                    <li>Attending, Free Of Charge, Summer Programs At Presitgious Colleges All Over America</li>
+                    <li>Personalized Assistance With College Applications During Senior Year</li>
+                    <li>College Visits</li>
+                </ul>
+                <li>Personalized Mentors That Guide Our Students In Their 4-Year Journey With Us</li>
+                <li>Some Other Secret Benefits That Will Be A Suprise For Those That Do Get Into Our Program 😉</li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="text-align: left; font-size: 25px; padding-top: 20px;">Application Progress</h4>
+            <div class="container" >
+                <div class="row text-center">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-5">
+                        <img src="../img/happy.jpg" alt="Students Roaming The Streets" width="250" height="250">
+                        <!--Image Taken By Eliott Reyna on Unsplash-->
+                    </div>
+                    <div class="col-6">
+                    <p style="text-align: left;">Future Foundation 15 considers the applications holistically. There will be two phases for the application
+                        progress, the physical application and an interview. We will thoroughly review the applications and 
+                        select the ones that meet our requirements. The interview will give us a better understanding of the student
+                        and make sure that they are the perfect fit for our program.
+                    </p>
+                    <a href="deadend.html">
+                        <button style="max-width: 50%; text-align: center;">Apply Now</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sectiom>
+
+
+<!--Contact Us-->
+<section id="contact">
+    <div class="bg-gray">
+        <div class="container" style="padding-top: 45px">
+            <div class="row text-center">
+                <div class="col-12">
+                </div>
+                <div class="col-4">
+                    <h6 style="text-align: center; font-size: 25px; ;">Future Foundation 15</h6>
+                    <p style="font-size: 13px;">The future foundations and pillars of our society are built here.
+                        Subscribe to us to recieve constant news and updates on Future Foundation as we progress
+                        to achieve our goals.</p>
+                    <div style="text-align: left;">Email<br>
+                        <input type="text" style="max-width: 100%;">
+                    </div>
+                    <button type="submit" style="max-width: 50%; font-size:15px;">Submit</button>
+                </div>
+                <div class="col-8">
+                    <h7 style="font-size: 25px;">Contact Us</h7>
+                    <p></p>Phone Number:<br>
+                    215-***-****</p>
+                    <p>Fax Number:<br>
+                        215-***-****</p>
+                    <p></p>Social Media:</p>
+                    <a class="btn btn-dark btn-social mx-1" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-1"
+                        href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a
+                        class="btn btn-dark btn-social mx-1" href="https://www.linkedin.com/in/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                </div>
+                <div class="col-6" style="color: white; text-align: left;">Copyright © Future Foundation 2021</div>
+                <div class="col-6" style="color: white;">12345 Future Foundation St. Philadelphia PA 12345</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Disclaimer-->
+<div>This website is not does not potray anything real and credit should be given where it
+    is due to the pictures and everything else that was taken from another source.
+</div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
