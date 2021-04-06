@@ -200,8 +200,8 @@ span.nwac {
 }
 .shadowed {
   background: white;
-  height: 450px;
-  margin: 100px;
+  height: auto;
+  margin: auto;
   padding: 20px;
   position: relative;
 }
