@@ -174,3 +174,9 @@ span.nwac {
   background-repeat: no-repeat;
   background-position:center;
 }
+.navbar-brand{
+  font-size: 25px !important;
+}
+.nav-link{
+  color: rgb(0, 0, 0) !important;
+}

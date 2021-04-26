@@ -187,3 +187,20 @@ span.nwac {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbar-brand{
+  font-size: 25px !important;
+}
+.nav-link{
+  color: rgb(0, 0, 0) !important;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
