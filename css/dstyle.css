@@ -168,15 +168,34 @@ span.nwac {
   opacity:0.7;
 }
 .big-bgpic{
-  background-image: url('../img/passion.jpg');
+  background-image: url('../img/sun.jpg');
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+  color:#FEE715FF;
 }
 .navbar-brand{
-  font-size: 25px !important;
+   font-size: 35px !important;
+   font-family:"Brush Script MT";
 }
 .nav-link{
   color: rgb(0, 0, 0) !important;
+}
+.dheader{
+  padding-bottom: 18px;
+  padding-top: 10px;
+  font-size : 24px;
+  font-family: 	Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+.thank{
+  text-align: center; 
+  font-size: 70px; color: rgb(255, 255, 255);
+  font-family:"Lucida Handwriting";
+  margin-left:20%; 
+  margin-right: 20%; 
+  padding-bottom: 30px; 
+  padding-top:30px;
+  color:white;
+
 }
